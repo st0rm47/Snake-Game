@@ -42,9 +42,9 @@ python main.py
 
 ## Gameplay
 
-<video width="600" controls>
-  <source src="Snake Game.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/c582b3a2-152c-4f8c-a253-a3e1f7a42207
+
+
 
 
