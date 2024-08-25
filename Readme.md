@@ -20,7 +20,8 @@ To run this game, you need to have Python and the required packages installed. T
 1. Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/st0rm47/Snake-Game.git
+```
 
 2. Install the required packages:
 
@@ -42,7 +43,7 @@ python main.py
 ## Gameplay
 
 <video width="600" controls>
-  <source src="path/to/your/video.mp4" type="video/mp4">
+  <source src="d:\Users\Downloads\Snake Game.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
