@@ -11,7 +11,6 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Snake Game")
 block_size = width // 32
 
-
 # Create the snake
 snake = Snake (width // 2, height // 2, 8)
 
@@ -41,7 +40,6 @@ def check_collision(snake):
         return True
     return False
 
-
 #Check collision with the food
 def check_food_collision(snake, food):
     head_rect = pygame.Rect(snake.head.x, snake.head.y, block_size, block_size)
@@ -65,7 +63,6 @@ def create_food():
     
     # Return a default position if no valid placement is found (unlikely case)
     return (width // 2, height // 2)
-
 
 # Create the first food
 food = create_food()
@@ -154,8 +151,7 @@ while True:
         pygame.time.wait(5000)  # Wait for 5 seconds before quitting
         pygame.quit()
         sys.exit()
-        
-        
+          
     # Update the display
     pygame.display.flip()
     
