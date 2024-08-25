@@ -63,14 +63,6 @@ class Snake:
         # Return the coordinates of the head of the snake
         return (self.head.x, self.head.y)
     
-    def get_tail(self):
-        # Return the coordinates of the tail of the snake
-        return (self.tail.x, self.tail.y)
-    
-    def get_length(self):
-        # Return the length of the snake
-        return self.length
-    
     def get_direction(self):
         # Return the current direction of the snake
         return self.direction
