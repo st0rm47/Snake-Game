@@ -43,7 +43,7 @@ python main.py
 ## Gameplay
 
 <video width="600" controls>
-  <source src="d:\Users\Downloads\Snake Game.mp4" type="video/mp4">
+  <source src="Snake Game.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
