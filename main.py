@@ -109,7 +109,7 @@ while True:
             game_over = True
     
     # Draw the screen
-    screen.fill((25, 50, 0))
+    screen.fill((0, 100, 0))
     
     # Draw the walls
     pygame.draw.rect(screen, wall_color, top_wall)  
